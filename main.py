@@ -1,6 +1,7 @@
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
+import pandas as pd
 
 # Fetch the service account key JSON file contents
 cred = credentials.Certificate("serviceAccountKey.json")
@@ -11,9 +12,10 @@ firebase_admin.initialize_app(cred, {
 })
 
 # Get data
-for node_number in range (0,20):
-    ref = db.reference('/{node_number}'.format(node_number=node_number))
-    print(ref.get())
+ref = db.reference('/data')
+data = ref.get()
 
-
+# Show data table
+dataset = pd.DataFrame(data)
+print(dataset)
 

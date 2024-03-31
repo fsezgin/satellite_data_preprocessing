@@ -1,0 +1,28 @@
+{
+  "data": {
+    "1711923019": {
+      "PAKET NUMARASI": 1,
+      "UYDU STATÜSÜ": 0,
+      "HATA KODU": "00000",
+      "GÖNDERME SAATİ": "31/03/2024 10:00:00",
+      "BASINÇ1": 101325,
+      "BASINÇ2": 101000,
+      "YÜKSEKLİK1": 0,
+      "YÜKSEKLİK2": 50,
+      "İRTİFA FARKI": 50,
+      "İNİŞ HIZI": 0,
+      "SICAKLIK": 25,
+      "PİL GERİLİMİ": 3.7,
+      "GPS1 LATITUDE": 40.7128,
+      "GPS1 LONGITUDE": -74.006,
+      "GPS1 ALTITUDE": 10,
+      "PITCH": 10,
+      "ROLL": 10,
+      "YAW": 10,
+      "RHRH": "AB12",
+      "IoT DATA": 25,
+      "TAKIM NO": 12345
+    }
+  }
+}
+
